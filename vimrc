@@ -129,10 +129,10 @@ set splitbelow
 set splitright
 
 " Quicker window movement
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
+" nnoremap <C-j> <C-w>j
+" nnoremap <C-k> <C-w>k
+" nnoremap <C-h> <C-w>h
+" nnoremap <C-l> <C-w>l
 
 " configure syntastic syntax checking to check on open as well as save
 let g:syntastic_check_on_open=1
@@ -165,6 +165,7 @@ syntax on
  let g:apex_properties_folder="/Users/keith.williams/Documents/vimforce/properties"
  let g:apex_tooling_force_dot_com_path="/Users/keith.williams/Documents/vimforce/tooling-force.com.jar"
  let g:apex_syntax_case_sensitive=1
+" let g:apex_test_logType=6
 " }}}
 
 set guifont=mensch
